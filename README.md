@@ -2,7 +2,7 @@
 # Nombre del Juego: ****
 
 ## Descripción
-**
+*
 ## Integrantes del equipo
 - **Nasreddin El Khiyat Imusatin** – n.ellkhiyat.2023@alumnos.urjc.es – [1Nash0]
 - **Jaime Alonso Del Real** – correo – [@usuarioGitHub]
