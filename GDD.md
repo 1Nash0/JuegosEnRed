@@ -54,7 +54,8 @@
 - **Estilo:** Cartoon 
 - **Cámara:** Top–down.  
 - **Colores:** Paleta de colores vivos.  
-- **Bocetos:** ![Boceto de personaje](./Bocetos/Personajes.png) 
+- **Bocetos:** 
+![Boceto de personaje](./Bocetos/Personajes.png) 
 - **Logo:** (Puedes incluirlo más adelante).
 
 ---
