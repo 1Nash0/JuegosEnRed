@@ -55,7 +55,7 @@
 - **Cámara:** Top–down.  
 - **Colores:** Paleta de colores vivos.  
 - **Bocetos:** 
-![Boceto de personaje](./Bocetos/Personajes.png) 
+  ![Boceto de personaje](./Bocetos/Personajes.png) 
 - **Logo:** (Puedes incluirlo más adelante).
 
 ---
