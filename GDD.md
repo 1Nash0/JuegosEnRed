@@ -1,53 +1,59 @@
 ﻿# 🎮 Game Design Document (GDD) – *Nombre del Juego*
 
 ## 1. Información General
-- **Nombre del juego:** Space Dogs Battle  
-- **Género:** Shooter / Acción 2D  
+- **Nombre del juego:** MoleHole
+- **Género:** Party / Arcade Competitivo
 - **Plataforma:** PC  
-- **Modo:** Multijugador en red (no por turnos)  
-- **Público objetivo:** 12+  
-- **Estilo visual:** Pixel Art, vista top–down  
-- **Inspiración:** Asteroids, Enter the Gungeon, Geometry Wars
+- **Modo:** Multijugador en red  
+- **Público objetivo:** Todas las edades 
+- **Estilo visual:** Cartoon
+- **Inspiración:** Los juegos arcade clasicos de las ferias
 
 ---
 
 ## 2. Concepto del Juego
-*
+* 
 
 ---
 
 ## 3. Mecánicas de Juego
-- Movimiento con WASD o flechas.
-- Disparo con clic izquierdo / barra espaciadora.
-- Recolección de power-ups en el mapa.
-- Colisiones con proyectiles → pérdida de puntos de vida.
-- Los jugadores reaparecen tras morir.
+- Movimiento con las teclas numéricas y el ratón.
+- Recolección de power-ups en agujeros.
+- Si el jugador que controla el mazo logra golpear al topo gana puntos y el topo pierde, pero por cada error del mazo el topo es el que gana puntos y el mazo pierde.
 - Marcador visible en tiempo real.
+- Contador del timpo que una vez que se llega a cero para el juego.
 
 ---
 
 ## 4. Controles
-| Acción               | Tecla / Botón              |
+
+| Acción   Pin          | Tecla / Botón               |
 |-----------------------|-----------------------------|
-| Moverse               | WASD                        |
-| Disparar              | Barra espaciadora / Click   |
-| Habilidad especial    | Shift                       |
-| Pausa / Menú          | Esc                         |
+| Moverse               | Teclas numéricas            |
+| Cojer Power-Up        | Barra espaciadora / Click   |
+
+
+| Acción   Pom          | Tecla / Botón               |
+|-----------------------|-----------------------------|
+| Moverse               | Ratón click izquierdo       |
+| Cojer Power-Up        | Barra espaciadora / Click   |
+
+
 
 ---
 
 ## 5. Físicas y Escenario
-- Mapa rectangular 2D.  
+- Mapa cuadrado 2D.  
 - Movimiento fluido con inercia ligera.  
-- Colisiones simples entre jugadores, proyectiles y muros.  
+- Colisiones simples entre lois jugadores. 
 - Power-ups aparecen aleatoriamente.
 
 ---
 
 ## 6. Arte y Diseño Visual
-- **Estilo:** Pixel art.  
+- **Estilo:** Cartoon 
 - **Cámara:** Top–down.  
-- **Colores:** Paleta retro (azules, verdes y rojos brillantes).  
+- **Colores:** Paleta de colores vivos.  
 - **Bocetos:** (Aquí puedes pegar imágenes o enlaces a tus bocetos).  
 - **Logo:** (Puedes incluirlo más adelante).
 
@@ -60,7 +66,7 @@
 ---
 
 ## 8. Narrativa
-- Año 3025. En la galaxia “Canina”, las razas de perros compiten por territorios espaciales. Cada jugador representa una facción y lucha por dominar los planetas.  
+- Los personajes eran dos abogados que eran muy amigos, pero en el momento que ascendieron a Pom a juez su trato hacia Pin cambió.
 - **Personajes:**  
   - *Spike* – bulldog espacial.  
   - *Luna* – galga rápida.  
