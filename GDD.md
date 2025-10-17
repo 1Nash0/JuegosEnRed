@@ -12,16 +12,19 @@
 ---
 
 ## 2. Concepto del Juego
-* 
+* El juego trata de golpear a un topo que sale por distintos agujeros, consiguiendo puntos y power-ups, tanto por el lado del martillo como el lado del topo.
 
 ---
 
 ## 3. Mecánicas de Juego
-- Movimiento con las teclas numéricas y el ratón.
-- Recolección de power-ups en agujeros.
+- El jugador que controla el mazo se moverá usando el ratón y el click izquierdo para golpear, mientras que el topo usara las teclas númericas para aparecer por los diferentes agujeros.
 - Si el jugador que controla el mazo logra golpear al topo gana puntos y el topo pierde, pero por cada error del mazo el topo es el que gana puntos y el mazo pierde.
-- Marcador visible en tiempo real.
-- Contador del timpo que una vez que se llega a cero para el juego.
+- El juego contará con una serie de power-ups disponibles para cada jugador y que se pueden usar pulsando el click derecho para el mazo o la barra espaciadora para el topo. Estos power-ups no pueden acumularse, por lo que deberán ser usados antes de poder coger el siguiente. Su recoleción constará de que aparezcan en algún agujero de manera aleatoria y oculta hasta que se consiga. Entre los power-ups se encuentran:
+  - Trampa: como su nombre indica es una trampa del topo que se coloca de manera secreta en uno o más agujeros y si el mazo golpea uno de estos perderá el doble de puntos y el topo ganará el doble.
+  - Bloqueo: el topo bloquea todos los agujeros durante un breve periodo de tiempo ganando puntos con el tiempo e impidiendo que el mazo golpee.
+  - Golpetazo: el mazo abre todos los agujeros durante un breve periodo de tiempo y puede golpear cualquier agujero para ganar puntos, este power-up no provoca que el topo pierda puntos.
+  - Mejora: el mazo obtiene un aumento que le permite golpear más fuerte obteniendo el doble de puntos y provocando que el topo pierda el doble.
+- El juego contará con un reloj, en alguna zona de la pantalla que no moleste, que medirá en tiempo restante, una vez se termine el tiempo, el jugador con más puntos ganará la partida y se deberá iniciar otra partida para seguir jugando. 
 
 ---
 
@@ -29,15 +32,15 @@
 
 | Acción   Pin          | Tecla / Botón               |
 |-----------------------|-----------------------------|
-| Moverse               | Teclas numéricas            |
-| Cojer Power-Up        | Barra espaciadora / Click   |
+| Aparecer              | Teclas numéricas            |
+| Coger Power-Up        | Barra espaciadora / Click   |
 
 
 | Acción   Pom          | Tecla / Botón               |
 |-----------------------|-----------------------------|
-| Moverse               | Ratón click izquierdo       |
-| Cojer Power-Up        | Barra espaciadora / Click   |
-
+| Moverse               | Movimiento del ratón        |
+| Coger Power-Up        | Click derecho               |
+| Golpear               | Click izquierdo             |
 
 
 ---
