@@ -73,7 +73,8 @@
   - Power-up recogido
 - **Bocetos:**
  - *Personajes principales*
-  ![Boceto de personaje](./Bocetos/Personajes.png)
+ - 
+  ![Boceto de personaje](./Assets/Bocetos/Personajes.png)
 
  - *Escenario base con los agujeros*
  - *Iconos de power-ups*
@@ -96,7 +97,6 @@
 ---
 
 ## 9. Diagrama de Flujo
-```text
-Menú principal → Lobby multijugador → Partida en red
-      ↑                                 ↓
-   Resultados ← Fin de partida ← Jugadores
+
+-![Diagrama de flujo](./Assets/Diagrama.png)
+
