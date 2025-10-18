@@ -72,11 +72,11 @@
   - Golpe de mazo con efecto de impacto exagerado
   - Power-up recogido
 - **Bocetos:**
-- *Personajes principales
+ - *Personajes principales*
   ![Boceto de personaje](./Bocetos/Personajes.png)
 
-- *Escenario base con los agujeros
-- *Iconos de power-ups
+ - *Escenario base con los agujeros*
+ - *Iconos de power-ups*
 - **Logo:** 
 
 ---
