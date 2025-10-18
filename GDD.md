@@ -7,13 +7,17 @@
 - **Modo:** Multijugador en red  
 - **Público objetivo:** Todas las edades 
 - **Estilo visual:** Cartoon
-- **Inspiración:** Los juegos arcade clásicos de las ferias
+- **Inspiración:** Los juegos arcade clásicos de las ferias, Whac-A-Mole, It Takes Two
+- **Duración promedio de partida:** 3 minutos
+- **Número de jugadores:** 2 por partida
 
 ---
 
 ## 2. Concepto del Juego
-* El juego trata de golpear a un topo que sale por distintos agujeros, consiguiendo puntos y power-ups, tanto por el lado del martillo como por el lado del topo.
-
+* MoleHole es un juego competitivo por rondas en el que dos jugadores asumen roles opuestos:
+  - *Jugador 1:* el mazo, que debe golpear al topo que aparece en diferentes agujeros.
+  - *Jugador 2:* el topo, que debe engañar y esquivar al mazo, apareciendo en lugares estratégicos y usando power-ups para sumar puntos.
+* El objetivo es acumular más puntos que el oponente antes de que el tiempo termine.
 ---
 
 ## 3. Mecánicas de Juego
@@ -46,20 +50,34 @@
 ---
 
 ## 5. Físicas y Escenario
-- Mapa cuadrado 2D.  
-- Movimiento fluido con inercia ligera.  
-- Colisiones simples entre lois jugadores. 
-- Power-ups aparecen aleatoriamente.
+- **Mapa:** cuadrado 2D con 9 agujeros distribuidos en una cuadrícula 3x3 . 
+- **Movimiento:**
+  - *Mazo se desplaza con suavidad (inercia ligera).
+  - *El topo aparece instantáneamente al pulsar una tecla numérica.
+- **Colisiones:** simples, detección de impacto al hacer clic en el agujero activo. 
+- **Spawn de power-ups:** aleatorio, con sistema de control para evitar repeticiones consecutivas.
+- **UI:**
+ - *Reloj visible en la parte superior central.
+ - *Marcadores de puntos a izquierda y derecha.
+ - *Barra de estado para power-ups y cooldown.
 
 ---
 
 ## 6. Arte y Diseño Visual
 - **Estilo:** Cartoon 
 - **Cámara:** Top–down.  
-- **Colores:** Paleta de colores vivos.  
-- **Bocetos:** 
-  ![Boceto de personaje](./Bocetos/Personajes.png) 
-- **Logo:** (Puedes incluirlo más adelante).
+- **Colores:** Paleta de colores vivos.
+- **Animaciones:**
+  - *Topo saliendo del agujero
+  - *Golpe de mazo con efecto de impacto exagerado
+  - *Power-up recogido
+- **Bocetos:**
+- *Personajes principales
+  ![Boceto de personaje](./Bocetos/Personajes.png)
+
+- *Escenario base con los agujeros
+- *Iconos de power-ups
+- **Logo:** 
 
 ---
 
