@@ -1,4 +1,4 @@
-﻿# 🎮 Game Design Document (GDD) – *Nombre del Juego*
+﻿# 🎮 Game Design Document (GDD) – *Mole Hole*
 
 ## 1. Información General
 - **Nombre del juego:** MoleHole
