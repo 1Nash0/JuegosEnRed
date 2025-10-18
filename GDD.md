@@ -52,14 +52,14 @@
 ## 5. Físicas y Escenario
 - **Mapa:** cuadrado 2D con 9 agujeros distribuidos en una cuadrícula 3x3 . 
 - **Movimiento:**
-  - *Mazo se desplaza con suavidad (inercia ligera).
-  - *El topo aparece instantáneamente al pulsar una tecla numérica.
+  - Mazo se desplaza con suavidad (inercia ligera).
+  - El topo aparece instantáneamente al pulsar una tecla numérica.
 - **Colisiones:** simples, detección de impacto al hacer clic en el agujero activo. 
 - **Spawn de power-ups:** aleatorio, con sistema de control para evitar repeticiones consecutivas.
 - **UI:**
- - *Reloj visible en la parte superior central.
- - *Marcadores de puntos a izquierda y derecha.
- - *Barra de estado para power-ups y cooldown.
+ - Reloj visible en la parte superior central.
+ - Marcadores de puntos a izquierda y derecha.
+ - Barra de estado para power-ups y cooldown.
 
 ---
 
@@ -68,9 +68,9 @@
 - **Cámara:** Top–down.  
 - **Colores:** Paleta de colores vivos.
 - **Animaciones:**
-  - *Topo saliendo del agujero
-  - *Golpe de mazo con efecto de impacto exagerado
-  - *Power-up recogido
+  - Topo saliendo del agujero
+  - Golpe de mazo con efecto de impacto exagerado
+  - Power-up recogido
 - **Bocetos:**
 - *Personajes principales
   ![Boceto de personaje](./Bocetos/Personajes.png)
