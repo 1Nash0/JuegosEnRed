@@ -58,9 +58,9 @@
 - **Colisiones:** simples, detección de impacto al hacer clic en el agujero activo. 
 - **Spawn de power-ups:** aleatorio, con sistema de control para evitar repeticiones consecutivas.
 - **UI:**
- - Reloj visible en la parte superior central.
- - Marcadores de puntos a izquierda y derecha.
- - Barra de estado para power-ups y cooldown.
+  - Reloj visible en la parte superior central.
+  - Marcadores de puntos a izquierda y derecha.
+  - Barra de estado para power-ups y cooldown.
 
 ---
 
