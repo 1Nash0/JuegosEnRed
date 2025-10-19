@@ -74,13 +74,13 @@
   - Power-up recogido
 - **Bocetos:**
   
- - Pantalla de inicio              
+  - Pantalla de inicio              
  ![Boceto de la pantalla de inicio](./Assets/Bocetos/Inicio.png)
 
- - Personajes principales               
+  - Personajes principales               
  ![Boceto de personaje](./Assets/Bocetos/Personajes.png)
 
- - Escenario base con los agujeros
+  - Escenario base con los agujeros
  ![Boceto del escenario](./Assets/Bocetos/Gameplay.png)
  
 - **Logo:**
