@@ -78,13 +78,13 @@
  ![Boceto de la pantalla de inicio](./Assets/Bocetos/Inicio.png)
 
  - Personajes principales               
- 
  ![Boceto de personaje](./Assets/Bocetos/Personajes.png)
 
  - Escenario base con los agujeros
  ![Boceto del escenario](./Assets/Bocetos/Gameplay.png)
  
-- **Logo:** 
+- **Logo:**
+![Logo](./Assets/Logo.png)
 
 ---
 
