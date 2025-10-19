@@ -10,6 +10,7 @@
 - **Inspiración:** Los juegos arcade clásicos de las ferias, Whac-A-Mole, It Takes Two
 - **Duración promedio de partida:** 3 minutos
 - **Número de jugadores:** 2 por partida
+- **Repositorio de Github:** https://github.com/1Nash0/JuegosEnRed.git
 
 ---
 
