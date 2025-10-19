@@ -73,11 +73,12 @@
   - Golpe de mazo con efecto de impacto exagerado
   - Power-up recogido
 - **Bocetos:**
+  
  - Pantalla de inicio
-  ![Boceto de la pantalla de inicio](./Assets/Bocetos/Inicio.png)
+ ![Boceto de la pantalla de inicio](./Assets/Bocetos/Inicio.png)
 
  - Personajes principales
-  ![Boceto de personaje](./Assets/Bocetos/Personajes.png)
+ ![Boceto de personaje](./Assets/Bocetos/Personajes.png)
 
  - Escenario base con los agujeros
  ![Boceto del escenario](./Assets/Bocetos/Gameplay.png)
