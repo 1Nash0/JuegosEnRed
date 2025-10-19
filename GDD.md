@@ -56,6 +56,8 @@
 - **Movimiento:**
   - Mazo se desplaza con suavidad (inercia ligera).
   - El topo aparece instantáneamente al pulsar una tecla numérica.
+- **Dificultad progresiva:** a medida que avanza el tiempo, la velocidad de aparición del topo aumenta, reduciendo la ventana de reacción del mazo.  
+- **Física del mazo:** si el jugador hace click muy rápido, se aplicará un pequeño “delay” para evitar spam de golpes.  
 - **Colisiones:** simples, detección de impacto al hacer clic en el agujero activo. 
 - **Spawn de power-ups:** aleatorio, con sistema de control para evitar repeticiones consecutivas.
 - **UI:**
@@ -68,11 +70,12 @@
 ## 6. Arte y Diseño Visual
 - **Estilo:** Cartoon 
 - **Cámara:** Top–down.  
-- **Colores:** Paleta de colores vivos.
 - **Animaciones:**
   - Topo saliendo del agujero
   - Golpe de mazo con efecto de impacto exagerado
   - Power-up recogido
+- **Inspiración artística:** estética cartoon inspirada en los juegos de feria de los 80, la interfaz simple y colorida de *Animal Crossing*, y la exageración en animaciones de *Cuphead*. Además de los personajes inspirados en el universo de *Bojack Horseman*.
+- **Uso del color:** la paleta de colores vivos busca transmitir alegría, dinamismo y accesibilidad para todas las edades. Los contrastes fuertes ayudan a que los agujeros y personajes sean fácilmente distinguibles durante partidas rápidas.
 - **Bocetos:**
   
   - Pantalla de inicio              
@@ -91,15 +94,20 @@
 
 ## 7. Sonido
 - **Música:** BGM espacial retro estilo arcade.  
-- **Efectos:** Disparos, explosiones, colisiones, aparición de power-ups.
+- **Efectos sonoros:**
+  - Golpe de mazo → “Smash” con eco suave estilo arcade.
+  - Topo apareciendo → “Pop” corto y agudo.
+  - Power-up recogido → campanilla brillante.
+  - Cuenta regresiva → pitido acelerado.
 
 ---
 
 ## 8. Narrativa
 - Erase una vez dos grandes amigos, Pin y Pom. Ambos crecieron juntos, con el mismo sueño, hacer que los malhechores estuviesen entre rejas, esto es debido a un recuerdo traumático de ambos, la muerte de otro gran amigo suyo a manos de un delincuente. Los dos crecieron apoyándose el uno al otro, tanto en los estudios como en otros temas. Al llegar a la universidad consiguieron su título y por fin llegaron a ser abogados. Su fama como pareja de abogados crecía como la espuma puesto que cuando estaban juntos no había ningún caso que se les resistiera. Sin embargo, el destino decidió jugársela poniéndolos en contra en un caso que llevaría a su separación. Pom acabó ganando a través de malas prácticas y Pin quedó solo. Con el tiempo, empezaron a distanciarse más todavía, Pom aumentaba su fama, pero Pin intentaba sacar a la luz sus trapos sucios. Al final, Pom acabó convirtiéndose en juez y en su primer caso, encontró a Pin y decidió, a partir de ese momento, hacerle la vida imposible. Historia completa en el anexo.
 - **Personajes:**  
-  - *Pom* – Juez Pingüino
-  - *Pin* – Abogado Topo
+  - **Pin:** (Topo) Motivado por la justicia, busca burlar a Pom como forma simbólica de redimirse y seguir luchando contra la corrupción.
+  - **Pom:** (Juez pingüino) Quiere demostrar su supremacía y control absoluto, reflejado en su rol ofensivo como mazo.
+
 
 ---
 
@@ -107,7 +115,13 @@
 
 ![Diagrama de flujo](./Assets/Diagrama.png)
 
-## 10. Anexo
+## 10. Estrategia de Marketing
+- **Público objetivo:** jugadores casuales que buscan partidas rápidas y competitivas.
+- **Canales de difusión:** redes sociales (TikTok, Instagram), anuncios en páginas web.
+- **Promoción:** trailers cortos mostrando partidas de 30 segundos con humor.
+- **Eventos:** torneos online semanales y minijuegos diarios para mantener comunidad activa.
+
+## 11. Anexo
 -**Historia completa del juego:**
 Años 90, Animatopia, una ciudad que, pese a su nombre, está plagada de delincuentes y gente sin honor. La ley no se hace respetar, los abogados se convirtieron en títeres de sus clientes y los jueces apenas tienen poder para condenar. En esta ciudad nacen nuestros protagonistas Pin y Pom y su gran amigo Pum, unos años mayor que ellos. Sus familias se hicieron amigos y, por ende, ellos también. Los tres crecieron en un barrio no muy peligroso, jugaban juntos, reían y se divertían, quien diría que la tragedia estaba por llegar. Un día, cuando los tres estaban comprando en una tienda un encapuchado entró y a punta de pistola amenazó al trabajador y le obligó a poner todo el dinero en una mochila. Cuando acabó, el delincuente, no contento con lo que había sacado vio al trío y se acercó a ellos para robarles, Pin y Pom accedieron a darle lo que tenían por miedo, pero Pum no, estaba harto, había visto más robos de los que podía aguantar y en lugar de aceptar y callar intentó abalanzarse sobre el delincuente, ambos cayeron al suelo y comenzó el forcejeo, el trabajador llamó a la policía y Pin y Pom quedaron helados, incapaces de moverse, de repente, un disparo, Pum dejó de moverse y el delincuente movió su cuerpo dejando ver un agujero de bala en el pecho de Pum. La policía llegó minutos después, pero era muy tarde, el delincuente escapó y Pum yacía muerto en el suelo rodeado de un charco de sangre. El trauma jamás abandonaría a nuestros amigos. La noticia se hizo eco y en el funeral, Pin y Pom hicieron una promesa, encontrar al delincuente y meterle en la cárcel. La familia de Pum se mudó, incapaz de vivir en la ciudad que se había cobrado la vida de su único hijo y así el tiempo pasó. Pin y Pom reforzaron su amistad ayudándose el uno al otro, tanto en el instituto como en la universidad. Y, por fin, tras muchos años, consiguieron su título de abogado. Abrieron su propio despacho donde comenzaron sus andanzas. Empezando por casos pequeños y tras volverse más y más famosos, pasaron a casos más grandes. Juntos eran completamente invencibles en un juicio. Mientras tanto, ambos buscaban al responsable de su trauma y tras años de búsqueda lo hallaron, un juicio por robo a mano armada y aceptaron ser los abogados de la víctima a precio reducido. En el juicio lo hundieron en el más profundo abismo, tal era su sentencia que es mejor no decirla. Sin embargo, Pom no se sentía realizado, él quería que todos pagaran y fue a por su familia, Pin se interpuso afirmando que ellos no tenían nada que ver, su debate se agitó y provocó la primera de muchas rencillas entre ambos. En el juicio contra la familia, Pom usó tácticas sucias usando la manipulación para hacer creer que Pin defendía a delincuentes no por dinero ni obligación sino porque favorecía al sistema corrupto. Desgraciadamente esa manipulación resultó efectiva, Pin perdió el juicio y su credibilidad mientras que Pom ahora ansiaba más. Pin se prometió destapar a Pom y nuestros amigos se volvieron enemigos. Pom conseguía mejores casos y sus tácticas iban empeorando cada vez más, por su parte Pim intentaba desenmascarar, pero sus reputaciones y famas opuestas, así como el conocimiento de Pom hacían la tarea imposible. El punto de inicio del fin llegó cuando en un juicio en el que Pin participaba, Pom también, no como abogado, sino como juez, no habiendo olvidado los múltiples intentos de Pin de llevarlo a la ruina ya la cárcel, Pom decidió en ese momento volverse el juez personal de Pim y convertir su vida y sus intentos de sacar todo a la luz en polvo.
 
