@@ -13,7 +13,7 @@
 
 
 ## GDD
-👉 Puedes consultar el documento completo del diseño aquí: [GDD.md](./GDD.md)
+ [GDD.md](./GDD.md)
 
 
 
